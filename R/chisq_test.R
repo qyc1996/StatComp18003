@@ -1,5 +1,5 @@
 #' @title  chi-square test statistic
-#' @description give two sample vectors,generate list of chi-square test statistic,degree of freedom and p-value.
+#' @description give two sample vectors,generate list of chi-square test statistic,degree of freedom and p-value.the null hypothesis that the two samples are connected.
 #' @param x Sample to be tested
 #' @param y Sample to be tested
 #' @return chi-square test statistic,p-value and degree of freedom.

@@ -3,7 +3,7 @@
 #' @param N the number of permutation
 #' @param x the sample to be tested
 #' @param y the sample to be tested
-#' @return  test p-value
+#' @return  Cram′er-von Mise test p-value
 #' @examples
 #' \dontrun{
 #' set.seed(2)

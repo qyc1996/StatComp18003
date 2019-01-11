@@ -1,6 +1,6 @@
-#' @title random numbers which are Rayleighed distribution
-#' @description the function for generating distribution function random numbers
-#' @param R the number of replication samples
+#' @title random numbers which obey Rayleighed distribution
+#' @description generate samples from a Rayleigh(\sigma) distribution
+#' @param R the number of replication samples,the default is 10000.
 #' @param x the initiation sequence
 #' @param sigma the parameter of Rayleigh density
 #' @param antithetic the method which generates the cdf.default is TRUE
@@ -14,7 +14,7 @@
 #' print(round(rbind(x, MC1, MC2, Phi),5))
 #' }
 #' @export
-MC.Phi<-function(x,sigma,R= 10000, antithetic = TRUE) {
+ray<-function(x,sigma,R= 10000, antithetic = TRUE) {
   u <- runif(R/2)
   if (!antithetic)
     v<- runif(R/2)
