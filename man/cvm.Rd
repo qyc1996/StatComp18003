@@ -19,3 +19,16 @@ test p-value
 \description{
 generating Cram′er-von Mises test p-value,which the null hypothesis that the two samples come from the same distribution.
 }
+\examples{
+\dontrun{
+set.seed(2)
+attach(chickwts)
+x1 <- sort(as.vector(weight[feed == "soybean"]));
+y1 <- sort(as.vector(weight[feed == "linseed"]));
+cvm1<-cvm(x1,y1,999);
+p1 <- mean(cvm1 >= cvm1[1]);
+p1
+hist(cvm1, main = "Cram鈥瞖r-von Mises test", freq = FALSE, xlab = "w (p = 0.385)",breaks = "scott");
+points(cvm1[1], 0, cex = 1, pch = 16);
+}
+}
