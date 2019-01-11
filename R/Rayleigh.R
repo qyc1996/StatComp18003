@@ -1,5 +1,5 @@
 #' @title random numbers which obey Rayleighed distribution
-#' @description generate samples from a Rayleigh(\sigma) distribution
+#' @description generate samples from a Rayleigh(sigma) distribution
 #' @param R the number of replication samples,the default is 10000.
 #' @param x the initiation sequence
 #' @param sigma the parameter of Rayleigh density

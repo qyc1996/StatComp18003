@@ -14,7 +14,7 @@ cvm(x, y, N)
 \item{N}{the number of permutation}
 }
 \value{
-test p-value
+Cram′er-von Mise test p-value
 }
 \description{
 generating Cram′er-von Mises test p-value,which the null hypothesis that the two samples come from the same distribution.

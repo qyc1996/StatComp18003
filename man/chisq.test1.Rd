@@ -15,7 +15,7 @@ chisq.test1(x, y)
 chi-square test statistic,p-value and degree of freedom.
 }
 \description{
-give two sample vectors,generate list of chi-square test statistic,degree of freedom and p-value.
+give two sample vectors,generate list of chi-square test statistic,degree of freedom and p-value.the null hypothesis that the two samples are connected.
 }
 \examples{
 \dontrun{
