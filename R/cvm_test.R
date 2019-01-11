@@ -15,6 +15,7 @@
 #' p1
 #' hist(cvm1, main = "Cram′er-von Mises test", freq = FALSE, xlab = "w (p = 0.385)",breaks = "scott");
 #' points(cvm1[1], 0, cex = 1, pch = 16);
+#' }
 #' @export
 cvm<-function(x,y,N){
   reps<-numeric(N);
