@@ -9,8 +9,8 @@
 #' \dontrun{
 #' x <- seq(.1,2.5,length=5);
 #' set.seed(123)
-#' MC1<- MC.Phi(x,sigma=2,anti=FALSE) #for (X1+X2)/2 which X1,X2 is independent
-#' MC2<- MC.Phi(x,sigma=2,anti=TRUE)  #for antithetic variables (X+X')/2
+#' MC1<- ray(x,sigma=2,anti=FALSE) #for (X1+X2)/2 which X1,X2 is independent
+#' MC2<- ray(x,sigma=2,anti=TRUE)  #for antithetic variables (X+X')/2
 #' print(round(rbind(x, MC1, MC2, Phi),5))
 #' }
 #' @export
