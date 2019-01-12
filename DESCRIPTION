@@ -9,6 +9,7 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Imports:DAAG,RANN,boot,energy,Ball,MASS,microbenchmark,lattice,ggplot2,bootstrap
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 URL: http://github.com/qyc1996/StatComp18003
