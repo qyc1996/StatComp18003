@@ -2,7 +2,7 @@
 % Please edit documentation in R/cvm_test.R
 \name{cvm}
 \alias{cvm}
-\title{Cram′er-von Mises test}
+\title{Cramer-von Mises test}
 \usage{
 cvm(x, y, N)
 }
@@ -28,7 +28,7 @@ y1 <- sort(as.vector(weight[feed == "linseed"]));
 cvm1<-cvm(x1,y1,999);
 p1 <- mean(cvm1 >= cvm1[1]);
 p1
-hist(cvm1, main = "Cram鈥瞖r-von Mises test", freq = FALSE, xlab = "w (p = 0.385)",breaks = "scott");
+hist(cvm1, main = "Cramer-von Mises test", freq = FALSE, xlab = "w (p = 0.385)",breaks = "scott");
 points(cvm1[1], 0, cex = 1, pch = 16);
 }
 }

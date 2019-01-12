@@ -1,4 +1,4 @@
-#' @title Cram′er-von Mises test
+#' @title Cramer-von Mises test
 #' @description  generating Cram′er-von Mises test p-value,which the null hypothesis that the two samples come from the same distribution.
 #' @param N the number of permutation
 #' @param x the sample to be tested
@@ -13,7 +13,7 @@
 #' cvm1<-cvm(x1,y1,999);
 #' p1 <- mean(cvm1 >= cvm1[1]);
 #' p1
-#' hist(cvm1, main = "Cram′er-von Mises test", freq = FALSE, xlab = "w (p = 0.385)",breaks = "scott");
+#' hist(cvm1, main = "Cramer-von Mises test", freq = FALSE, xlab = "w (p = 0.385)",breaks = "scott");
 #' points(cvm1[1], 0, cex = 1, pch = 16);
 #' }
 #' @export
